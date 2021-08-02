@@ -27,7 +27,7 @@
   color: #ffffff;
   font-size: 20px;
 }
-.img {
+.banner {
   background-image: url(../image/slider.png);
   background-size: cover;
   height: 475px;
@@ -50,4 +50,13 @@
 }
 #right {
   border-radius: 18px;
+}
+#layer35 {
+  background-image: url(../image/Layer35.png);
+  height: 453px;
+  width: 241px;
+  padding: 378px 0 18px 67px;
+}
+.p-4 {
+  padding: 2rem!important
 }
