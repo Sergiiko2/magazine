@@ -27,3 +27,27 @@
   color: #ffffff;
   font-size: 20px;
 }
+.img {
+  background-image: url(../image/slider.png);
+  background-size: cover;
+  height: 475px;
+  width: 100%;
+}
+.bg {
+  background-color: #474942;
+}
+#btnEnd {
+  text-align: end;
+}
+#btnStart {
+  text-align: start;
+}
+#row {
+  padding: 185px 0 0 0;
+}
+#left {
+  border-radius: 18px;
+}
+#right {
+  border-radius: 18px;
+}
