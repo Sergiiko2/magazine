@@ -12,7 +12,7 @@
 <div class="header" id="header">
     <div class="container">
         <div class="row">
-            <div class="col-lg-4 col-sm-4">
+            <div class="col-lg-4 col-md-3 col-sm-3">
                 <div class="row">
                     <div class="col-lg-5 col-sm-6">
                         <p class="text-light text1">Language: </p>
@@ -22,7 +22,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-8 col-sm-8">
+            <div class="col-lg-8 col-md-9 col-sm-9">
                 <ul class="nav justify-content-end">
                     <li class="nav-item">
                         <a class="nav-link text-white" href="#">Account</a>
@@ -45,43 +45,58 @@
     </div>
 </div>
 
-<div class="container">
-    <div class="row">
-        <div class="col-lg-2 col-sm-6">
-            <nav class="navbar navbar-light">
+<div class="navBar">
+    <div class="container" id="cont">
+        <div class="row">
+            <div class="col-lg-2 col-md-12 col-sm-12">
+                <nav class="navbar navbar-light">
+                    <div class="container-fluid">
+                        <a class="navbar-brand fw-bold text-secondary" id="navbarBrand" href="#">
+                            LEO SHOP
+                        </a>
+                    </div>
+                </nav>
+            </div>
+
+            <div class="col-lg-6 col-md-12 col-sm-12 navPadding">
                 <div class="container-fluid">
-                    <a class="navbar-brand" href="#">
-                        LEO SHOP
-                    </a>
-                </div>
-            </nav>
-        </div>
-        <div class="col-lg-5 col-sm-12">
-            <nav class="nav">
-                <a class="nav-link text-secondary fw-bold" href="#">Link</a>
-                <a class="nav-link text-secondary fw-bold" href="#">Link</a>
-                <a class="nav-link text-secondary fw-bold" href="#">Link</a>
-                <a class="nav-link text-secondary fw-bold" href="#">Link</a>
-                <a class="nav-link text-secondary fw-bold" href="#">Link</a>
-            </nav>
-        </div>
-        <div class="col-lg-5 col-sm-6">
-            <div class="row">
-                <div class="col-lg-1">
-                    <i class="fas fa-tag"></i>
-                </div>
-                <div class="col-lg-1">
-                    <i class="fas fa-shopping-cart"></i>
-                </div>
-                <div class="col-lg-4">
-                    <a class="nav-link text-secondary fw-bold" href="#">CART (0)</a>
+                    <nav class="navbar">
+                        <a class="nav-link text-secondary fw-bold" href="#">HOME</a>
+                        <a class="nav-link text-secondary fw-bold" href="#">WOMEN</a>
+                        <a class="nav-link text-secondary fw-bold" href="#">MEN</a>
+                        <a class="nav-link text-secondary fw-bold" href="#">OTHER</a>
+                        <a class="nav-link text-secondary fw-bold" href="#">PURCHASE</a>
+                    </nav>
                 </div>
             </div>
 
+            <div class="col-lg-4 col-md-12 col-sm-12 navPadding">
+                <div class="row">
+                    <div class="container">
+                        <nav class="navbar">
+                            <div class="col-lg-5">
+                                <input class="form-control me-2"
+                                       type="search"
+                                       placeholder="Search..."
+                                       aria-label="Search">
+                            </div>
+                            <div class="col-lg-1 icon">
+                                <i class="fas fa-tag icons"></i>
+                            </div>
+                            <div class="col-lg-1 icon">
+                                <i class="fas fa-shopping-cart icons"></i>
+                            </div>
+                            <div class="col-lg-4">
+                                <a class="nav-link text-secondary fw-bold" href="#">CART (0)</a>
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+
+            </div>
         </div>
     </div>
 </div>
-
 
 
 
