@@ -1,7 +1,7 @@
 #header {
   background: #4cb1ca;
   font-size: 18px;
-  padding: 10px 0 0 0;
+  padding: 10px 0 10px 0;
 }
 
 .text1 {
@@ -75,5 +75,17 @@
 
 .p-4 {
   padding: 2rem !important;
+}
+
+#center {
+  text-align: center;
+}
+
+p {
+  margin-bottom: 0.1rem;
+}
+
+.padd {
+  padding: 25px 0 25px 0;
 }
 /*# sourceMappingURL=main.css.map */
